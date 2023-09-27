@@ -1,3 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .app {
+  margin: 50px auto;
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+}
+
+.inputBox {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.inputBox > form > button {
+  margin-left: 20px;
+}
+
+.todo {
   color: red;
 }
